@@ -4,6 +4,7 @@ import { config } from "@/config";
 import { useTheme } from "next-themes";
 import { FaGit, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { DarkModeToggle } from "./DarkModeToggle";
 
 export const Footer: FunctionComponent = () => {
 	const { resolvedTheme } = useTheme();
@@ -21,6 +22,9 @@ export const Footer: FunctionComponent = () => {
 					Linkedin
 				</div>
 			</a>
+			<div className=" -ml-3">
+				<DarkModeToggle />
+			</div>
 		</section>
 	);
 };

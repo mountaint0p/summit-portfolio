@@ -10,6 +10,8 @@ computer science and minoring in math and psychology. I have experience in
 software engineering, including two backend SWE internships at Robinhood. 
 I'm interested in distributed systems, data + ML infrastructure, and backend engineering.
 Currently, I'm looking for new grad roles for 2025. 
+
+Feel free to contact me at spradha1 [at] swarthmore [dot] edu.
 `;
 
 export async function generateMetadata() {
