@@ -16,14 +16,14 @@ Feel free to contact me at spradha1 [at] swarthmore [dot] edu.
 
 export async function generateMetadata() {
 	return {
-		title: "About Me",
-		description: "Learn more about Summit Pradhan",
+		title: "Summit's Portfolio",
+		description: "Summit Pradhan - Software Engineer",
 		openGraph: {
-			title: "About Me",
+			title: "Summit's Portfolio",
 			description: "Learn more about Summit Pradhan",
 			images: [
 				signOgImageUrl({
-					title: "Summit Pradhan",
+					title: "Summit's Portfolio",
 					label: "About Me",
 					brand: config.blog.name,
 				}),

@@ -7,7 +7,7 @@ const buildConfig = () => {
 		process.env.NEXT_DEFAULT_METADATA_DEFAULT_TITLE || "Summit's Portfolio";
 	const defaultDescription =
 		process.env.NEXT_PUBLIC_BLOG_DESCRIPTION ||
-		"Blog about travel and lifestyle.";
+		"Summit's Portfolio - Software Engineer";
 
 	return {
 		baseUrl: process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000",
