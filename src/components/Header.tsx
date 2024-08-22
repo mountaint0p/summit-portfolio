@@ -42,6 +42,17 @@ export const Navigation: FunctionComponent = () => {
 						</a>
 					</div>
 				))}
+				<div key="resume" className="ml-4 md:ml-8">
+					<Link
+						href={process.env.NEXT_PUBLIC_RESUME_URL || "/"}
+						className={cn(
+							"hover:text-gray-900",
+							pathname === "google.com" && "font-semibold"
+						)}
+					>
+						Resume
+					</Link>
+				</div>
 			</div>
 		</nav>
 	);
